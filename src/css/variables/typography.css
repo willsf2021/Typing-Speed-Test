@@ -1,0 +1,66 @@
+:root {
+  /*      Fonte base  */
+  --font-sans: "Sora", sans-serif;
+
+  --tp-1-size: 40px;
+  --tp-1-line: 1.36;
+  --tp-1-letter: 0.4px;
+  --tp-1-weight: 700;
+
+  /* Text Preset 1 — Bold (Mobile) */
+  --tp-1-m-size: 24px;
+  --tp-1-m-line: 1.2;
+  --tp-1-m-letter: 0.32px;
+
+  /*      Text Preset 1 — Regular   */
+  --tp-1r-size: 40px;
+  --tp-1r-line: 1.36;
+  --tp-1r-letter: 0.4px;
+  --tp-1r-weight: 400;
+
+  /* Text Preset 1 — Regular (Mobile) */
+  --tp-1r-m-size: 32px;
+  --tp-1r-m-line: 1.36;
+  --tp-1r-m-letter: 0.4px;
+
+  /*      Text Preset 2 — Bold   */
+  --tp-2-size: 24px;
+  --tp-2-line: 1;
+  --tp-2-letter: 0px;
+  --tp-2-weight: 700;
+
+  /*      Text Preset 3 — Regular   */
+  --tp-3-size: 20px;
+  --tp-3-line: 1.2;
+  --tp-3-letter: -0.6px;
+  --tp-3-weight: 400;
+
+  /* Text Preset 3 — Regular (Mobile) */
+  --tp-3-m-size: 16px;
+  --tp-3-m-line: 1.2;
+  --tp-3-m-letter: -0.48px;
+
+  /*      Text Preset 3 — SemiBold   */
+  --tp-3sb-size: 20px;
+  --tp-3sb-line: 1.2;
+  --tp-3sb-letter: -0.3px;
+  --tp-3sb-weight: 600;
+
+  /*      Text Preset 4 — Regular   */
+  --tp-4-size: 18px;
+  --tp-4-line: 1.2;
+  --tp-4-letter: -0.6px;
+  --tp-4-weight: 400;
+
+  /*      Text Preset 5 — Regular   */
+  --tp-5-size: 16px;
+  --tp-5-line: 1.2;
+  --tp-5-letter: -0.48px;
+  --tp-5-weight: 400;
+
+  /*      Text Preset 6 — Regular    */
+  --tp-6-size: 12px;
+  --tp-6-line: 1.2;
+  --tp-6-letter: 0px;
+  --tp-6-weight: 400;
+}

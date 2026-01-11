@@ -1,0 +1,114 @@
+/* ==============================
+   Text Preset 1 — Bold
+============================== */
+.u-tp-1 {
+  font-family: var(--font-sans);
+  font-size: var(--tp-1-size);
+  line-height: var(--tp-1-line);
+  letter-spacing: var(--tp-1-letter);
+  font-weight: var(--tp-1-weight);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .u-tp-1 {
+    font-size: var(--tp-1-m-size);
+    line-height: var(--tp-1-m-line);
+    letter-spacing: var(--tp-1-m-letter);
+  }
+}
+
+/* ==============================
+   Text Preset 1 — Regular
+============================== */
+.u-tp-1r {
+  font-family: var(--font-sans);
+  font-size: var(--tp-1r-size);
+  line-height: var(--tp-1r-line);
+  letter-spacing: var(--tp-1r-letter);
+  font-weight: var(--tp-1r-weight);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .u-tp-1r {
+    font-size: var(--tp-1r-m-size);
+    line-height: var(--tp-1r-m-line);
+    letter-spacing: var(--tp-1r-m-letter);
+  }
+}
+
+/* ==============================
+   Text Preset 2 — Bold
+============================== */
+.u-tp-2 {
+  font-family: var(--font-sans);
+  font-size: var(--tp-2-size);
+  line-height: var(--tp-2-line);
+  letter-spacing: var(--tp-2-letter);
+  font-weight: var(--tp-2-weight);
+}
+
+/* ==============================
+   Text Preset 3 — Regular
+============================== */
+.u-tp-3 {
+  font-family: var(--font-sans);
+  font-size: var(--tp-3-size);
+  line-height: var(--tp-3-line);
+  letter-spacing: var(--tp-3-letter);
+  font-weight: var(--tp-3-weight);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .u-tp-3 {
+    font-size: var(--tp-3-m-size);
+    line-height: var(--tp-3-m-line);
+    letter-spacing: var(--tp-3-m-letter);
+  }
+}
+
+/* ==============================
+   Text Preset 3 — SemiBold
+============================== */
+.u-tp-3sb {
+  font-family: var(--font-sans);
+  font-size: var(--tp-3sb-size);
+  line-height: var(--tp-3sb-line);
+  letter-spacing: var(--tp-3sb-letter);
+  font-weight: var(--tp-3sb-weight);
+}
+
+/* ==============================
+   Text Preset 4 — Regular
+============================== */
+.u-tp-4 {
+  font-family: var(--font-sans);
+  font-size: var(--tp-4-size);
+  line-height: var(--tp-4-line);
+  letter-spacing: var(--tp-4-letter);
+  font-weight: var(--tp-4-weight);
+}
+
+/* ==============================
+   Text Preset 5 — Regular
+============================== */
+.u-tp-5 {
+  font-family: var(--font-sans);
+  font-size: var(--tp-5-size);
+  line-height: var(--tp-5-line);
+  letter-spacing: var(--tp-5-letter);
+  font-weight: var(--tp-5-weight);
+}
+
+/* ==============================
+   Text Preset 6 — Regular
+============================== */
+.u-tp-6 {
+  font-family: var(--font-sans);
+  font-size: var(--tp-6-size);
+  line-height: var(--tp-6-line);
+  letter-spacing: var(--tp-6-letter);
+  font-weight: var(--tp-6-weight);
+}
