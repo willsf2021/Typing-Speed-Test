@@ -1,16 +1,40 @@
 main {
-padding: var(--spacing-200) var(--spacing-200) var(--spacing-350);
+  padding: var(--spacing-200) var(--spacing-200) var(--spacing-350);
   color: var(--neutral-0);
 }
 
+#resume-result-container {
+  display: table;
+}
+
+.resume-result-item,
+.hr-results {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hr-results {
+  width: 2px;
+  background-color: red;
+}
+
+.resume-result-item {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 768px) {
-    main {
-        padding: var(--spacing-100) var(--spacing-400) var(--spacing-800);
-    }
+  main {
+    padding: var(--spacing-100) var(--spacing-400) var(--spacing-800);
+  }
+
+  .resume-result-item {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1024px) {
-    main {
-        padding: var(--spacing-400) var(--spacing-1400);
-    }
+  main {
+    padding: var(--spacing-400) var(--spacing-1400);
+  }
 }
