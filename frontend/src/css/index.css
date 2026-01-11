@@ -1,2 +1,5 @@
+@import './reset.css';
 @import './util_classes/index.css';
 @import './variables/index.css';
+@import './partials/index.css';
+@import './global.css';

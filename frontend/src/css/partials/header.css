@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-200);
+}
+
+header #personal-score-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-125);
+    color: var(--neutral-0);
+}
+
+header #personal-score-container #personal-best-span{
+    color: var(--neutral-400);
+}
+
+/* Mobile */
+@media (min-width: 768px) {
+    header {
+        padding: var(--spacing-400);
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        padding: var(--spacing-400) var(--spacing-1400);
+    }
+}

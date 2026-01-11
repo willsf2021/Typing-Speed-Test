@@ -1,0 +1,16 @@
+main {
+padding: var(--spacing-200) var(--spacing-200) var(--spacing-350);
+  color: var(--neutral-0);
+}
+
+@media (min-width: 768px) {
+    main {
+        padding: var(--spacing-100) var(--spacing-400) var(--spacing-800);
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        padding: var(--spacing-400) var(--spacing-1400);
+    }
+}
